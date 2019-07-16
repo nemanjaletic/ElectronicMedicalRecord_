@@ -124,9 +124,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Doctor.cs" />
+    <Compile Include="Models\DrugPrescription.cs" />
+    <Compile Include="Models\Employed.cs" />
     <Compile Include="Models\Hospital.cs" />
+    <Compile Include="Models\MedicalCertificates.cs" />
+    <Compile Include="Models\MedicalExamination.cs" />
     <Compile Include="Models\Patient.cs" />
+    <Compile Include="Models\Publishing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
