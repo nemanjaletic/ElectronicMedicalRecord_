@@ -10,6 +10,6 @@ namespace ElectronicMedicalRecord.Models
         public int MedicalCertificatesID { get; set; }
         public string Purpose { get; set; }
         public string Note { get; set; }
-        
+        public virtual ICollection<Publishing> Publishings{ get; set; }
     }
 }

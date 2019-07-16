@@ -21,5 +21,10 @@ namespace ElectronicMedicalRecord.Models
         public string Username { get; set; }
         public string Password { get; set; }
         public int HospitalID { get; set; }
+
+
+
+        public virtual ICollection<MedicalExamination> MedicalExaminations{ get; set; }
+        public virtual ICollection<Publishing> Publishings{ get; set; }
     }
 }

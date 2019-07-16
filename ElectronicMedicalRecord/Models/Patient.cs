@@ -16,5 +16,8 @@ namespace ElectronicMedicalRecord.Models
         public string UCIN { get; set; } //jmbg - 	Unique Citizens Identity Number
         public string HealthInsuranceNumber { get; set; } //broj zdravstvenog osiguranja
         public string Sex { get; set; }
+
+        public virtual ICollection<MedicalExamination> MedicalExaminations { get; set; }
+
     }
 }
